@@ -59,7 +59,7 @@ public class Libro extends Escrito{
 
     @Override
     public int palabrasTotales(int palabrasPagina){
-        return palabrasPagina*2;
+        return palabrasPagina*getPaginas()*2;
     }
     @Override
     public String interpretacion(){
